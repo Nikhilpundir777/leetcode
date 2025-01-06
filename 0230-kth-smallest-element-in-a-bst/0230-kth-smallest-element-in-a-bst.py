@@ -4,7 +4,6 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import Counter
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         # Helper function to perform inorder traversal
